@@ -62,6 +62,11 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class='media-right'>
+                                <a href="{% url 'delete_city' city.city %}">
+                                    <button class = 'delete'></button>
+                                </a>
+                            </div>
                         </article>
                     </div>
                     {% endfor %}
